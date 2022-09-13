@@ -1,0 +1,12 @@
+.btn-borderRedondo {
+  cursor: pointer;
+  padding: 10px 30px 9px;
+  height: 45px;
+  letter-spacing: 1px;
+  font-size: 14px !important;
+  font-weight: 400;
+  font-family: 'Montserrat', 'sans-serif';
+  border-radius: 30px !important;
+  color: #d6d6d6;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}

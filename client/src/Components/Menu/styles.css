@@ -1,0 +1,288 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+/* Menu Styles */
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .open-panel {
+  border: none;
+  background-color: #fff;
+  padding: 0;
+}
+
+.openNav .hamburger {
+  position: absolute !important;
+}
+
+.wrapper .hamburger {
+  background: #fff;
+  position: relative;
+  display: block;
+  text-align: center;
+  padding: 13px 0;
+  width: 50px;
+  height: 73px;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  cursor: pointer;
+}
+.wrapper .hamburger:before {
+  content: '\2630'; /* hamburger icon */
+  display: block;
+  color: #333;
+  line-height: 32px;
+  font-size: 16px;
+}
+.wrapper .openNav .hamburger:before {
+  content: '\2715'; /* close icon */
+  display: block;
+  color: #333;
+  line-height: 32px;
+  font-size: 16px;
+}
+.wrapper .hamburger:hover:before {
+  color: #777;
+}
+.menu {
+  position: relative;
+  height: 100%;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.wrapper .menu li {
+  position: relative;
+  margin-bottom: 8px;
+}
+.menu .icon {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  pointer-events: none;
+  width: 24px;
+  height: 24px;
+}
+.menu,
+.menu a,
+.menu a:visited {
+  color: #333;
+  text-decoration: none !important;
+  position: relative;
+}
+.menu a {
+  display: block;
+  white-space: nowrap;
+  padding: 1em;
+  font-size: 14px;
+}
+.menu a:hover {
+  background-color: #5fa2db;
+  color: #fff;
+}
+.menu {
+  margin-bottom: 3em;
+}
+.menu-dropdown li .icon {
+  color: #5fa2db;
+  font-size: 18px;
+}
+.menu-dropdown li:hover .icon {
+  color: #fff;
+}
+.menu label {
+  margin-bottom: 0;
+  display: block;
+}
+.menu label:hover {
+  cursor: pointer;
+}
+.menu input[type='checkbox'] {
+  display: none;
+}
+input#menu[type='checkbox'] {
+  display: none;
+}
+
+.menu {
+  position: absolute;
+  display: block;
+  left: -200px;
+  top: 0;
+  width: 250px;
+  transition: all 0.45s cubic-bezier(0.77, 0, 0.175, 1);
+  background-color: #f3f4f5;
+  z-index: 999;
+}
+.menu-dropdown {
+  top: 0;
+  overflow-y: auto;
+}
+.overflow-container {
+  position: relative;
+  height: calc(100vh - 73px) !important;
+  overflow-y: auto;
+  border-top: 73px solid #fff;
+  z-index: -1;
+  display: block;
+}
+.menu span.logotype {
+  position: absolute !important;
+  top: 11px;
+  left: 55px;
+  display: block;
+  font-family: 'Montserrat', 'sans-serif';
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #333;
+  font-size: 21px;
+  padding: 10px;
+}
+.menu span.logotype span {
+  font-weight: 400;
+}
+.menu span.logotype:hover {
+  color: #777;
+}
+
+.menu:hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.openNav .menu:hover {
+  position: relative;
+  left: -200px;
+}
+
+.openNav {
+  transition: transform 0.45s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.openNav .menu {
+  position: relative;
+  transform: translate3d(200px, 0, 0);
+  transition: transform 0.45s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* look and feel only, not needed for core menu*/
+@-webkit-keyframes grow {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  50% {
+    display: block;
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes grow {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  50% {
+    display: block;
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Resposive Typography */
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+  color: #000;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  clear: both;
+  font-weight: 800;
+}
+dfn,
+cite,
+em,
+i {
+  font-style: italic;
+}
+address {
+  margin: 0 0 1.5em;
+}
+pre {
+  background: #eee;
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 15px;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 1.6em;
+}
+code,
+kbd,
+tt,
+var {
+  font-family: 'Montserrat', 'sans-serif';
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+abbr,
+acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+mark,
+ins {
+  background: #fff9c0;
+  text-decoration: none;
+}
+big {
+  font-size: 125%;
+}
+.light {
+  color: #ddd;
+}
+strong {
+  font-weight: 600;
+}
+cite,
+em,
+i {
+  font-style: italic;
+}
+
+abbr,
+acronym {
+  border-bottom: 1px dotted #666;
+  cursor: help;
+}
+
+p {
+  font-size: 1em;
+  margin: 0 0 2em 0;
+}
+article:last-of-type,
+p:last-of-type {
+  margin-bottom: 0;
+}

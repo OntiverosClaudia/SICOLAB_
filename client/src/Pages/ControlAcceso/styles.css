@@ -1,0 +1,134 @@
+.box-controlAcceso {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  width: 90%;
+  height: 70%;
+  /* background: rgb(238, 238, 238); */
+}
+.container-InfoAcceso {
+  border: 1px solid #ccc;
+  background-color: #f3f4f5;
+  color: #333;
+  width: 100%;
+  min-height: 130px;
+  padding: 1%;
+  border-radius: 5px;
+}
+
+.container-ExtraCA {
+  /* background-color: aquamarine; */
+  width: 90%;
+  height: 15%;
+  top: 50%;
+  left: 50%;
+  transform: translate(5.53%, 20%);
+  padding: 1%;
+}
+
+.container-InfoAcceso h5 {
+  font-size: 24px !important;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 500;
+  color: #333;
+}
+
+.container-InfoAcceso h5::before {
+  content: '─';
+  margin-right: 0.6em;
+  color: #616161;
+}
+.container-InfoAcceso h5::after {
+  content: '─';
+  margin-left: 0.6em;
+  color: #616161;
+}
+
+.container-ExtraCA .input-CU input {
+  width: 100%;
+  height: 35px;
+  padding: 11px 45px 11px 20px;
+  border-radius: 30px;
+
+  font-size: 14px;
+  outline: none;
+  color: #616161;
+
+  font-weight: 500;
+  border: 1px solid transparent;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  /*border: 1px solid #ccc;*/
+  background: #fff;
+}
+
+.container-DataTable-ControlAcceso {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.container-DataTable-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-DataTable-title {
+  color: #5fa2db;
+  font-size: 22px;
+}
+
+.container-DataTable-ControlAcceso .input-CU input {
+  width: 100%;
+  height: 35px;
+  padding: 11px 45px 11px 20px;
+  border-radius: 30px;
+
+  margin-bottom: 2px;
+
+  font-size: 14px;
+  outline: none;
+  color: #616161;
+
+  font-weight: 500;
+  border: 1px solid transparent;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+.divContainer-BtnCA {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f4f5;
+  color: #5fa2db;
+  border: 2px solid #5fa2db;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.divContainer-BtnCA:hover {
+  background-color: #5fa2db;
+  color: #fff;
+  border: 2px solid #5fa2db;
+}
+/*  */
+.divContainer-DatatableEmpty-CA {
+  text-align: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.divContainer-DatatableEmpty-CA h5 {
+  font-weight: 500;
+}
+
+.divContainer-DatatableEmpty-CA h6 {
+  font-weight: 400;
+  font-style: italic;
+}

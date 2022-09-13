@@ -1,0 +1,42 @@
+.react-timerange-picker__wrapper {
+  border: none;
+  display: flex;
+  gap: 10px;
+}
+
+.react-timerange-picker__inputGroup {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  display: flex;
+}
+
+.react-timerange-picker__inputGroup__minute {
+  margin: 0 0 0 0.5rem;
+}
+
+.react-time-picker__inputGroup__divider {
+  display: none;
+}
+
+.react-timerange-picker__inputGroup__leadingZero {
+  display: none;
+}
+
+.react-timerange-picker__inputGroup__input {
+  width: 100% !important;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0 5px;
+}
+
+.react-timerange-picker__inputGroup__input:focus-visible {
+  outline: none;
+  border: 1px solid #5fa2db;
+}
+
+.contenedor-Horario {
+  display: flex;
+  margin: 5px;
+  flex-direction: row;
+}

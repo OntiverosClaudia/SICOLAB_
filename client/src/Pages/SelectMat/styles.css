@@ -1,0 +1,61 @@
+.container-selectMat {
+  background-color: #fff;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container-selectMat .content-materia {
+  width: 90%;
+}
+
+.container-selectMat .content-materia .materia {
+  width: 100%;
+  overflow: auto;
+  max-height: 88vh;
+}
+
+/*Boton*/
+.container-selectMat .form-group .btn-md {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 30px 9px;
+  height: 45px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 30px;
+  color: #d6d6d6;
+}
+.container-selectMat .form-group button:focus {
+  outline: none;
+  outline: 0 auto -webkit-focus-ring-color;
+}
+.container-selectMat .form-group .btn-fg.focus,
+.btn-fg:focus {
+  box-shadow: none;
+}
+.container-selectMat .form-group .btn-fg {
+  background: #67afee;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.container-selectMat .form-group .btn-fg:hover {
+  background: #5fa2db;
+  color: #fff;
+}
+
+.btn-outline-info {
+  border: 1px solid #67afee !important;
+  color: #67afee !important;
+  margin-right: 1rem;
+}
+
+.btn-outline-info:hover {
+  color: #fff !important;
+  background-color: #67afee !important;
+  cursor: pointer;
+}

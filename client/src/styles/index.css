@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700);
+
+* {
+  font-family: 'Montserrat', 'sans-serif';
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Titulos */
+h1 {
+  font-size: 24px !important;
+  letter-spacing: 1px;
+  text-align: center;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 40px !important;
+}
+
+h1::before {
+  content: '─';
+  margin-right: 0.6em;
+  color: #616161;
+}
+h1::after {
+  content: '─';
+  margin-left: 0.6em;
+  color: #616161;
+}
+/* Titulo DataTables */
+.cEMZEX {
+  color: #5fa2db !important;
+}
+
+b {
+  color: #505050;
+}
+
+.error {
+  color: red !important;
+  font-size: 10px;
+  margin-left: 0.3rem;
+}
+
+/*button: Boton principal*/
+.form-group {
+  align-items: center;
+  text-align: center;
+}
+.form-group .btn-md {
+  cursor: pointer;
+  padding: 10px 30px 9px;
+  height: 45px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Montserrat', 'sans-serif';
+  border-radius: 30px;
+  color: #d6d6d6;
+}
+.form-group button:focus {
+  outline: none;
+  outline: 0 auto -webkit-focus-ring-color;
+}
+.form-group .btn-fg.focus,
+.btn-fg:focus {
+  box-shadow: none;
+}
+.form-group .btn-fg {
+  background: #67afee;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.form-group .btn-fg:hover {
+  background: #5fa2db;
+  color: #fff;
+}
+
+.form-group .btn-block {
+  background-color: #67afee;
+  color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.form-group .btn-block.disabled {
+  background-color: #f3f4f5;
+  color: #5fa2db;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
+
+/* Tooltip Info*/
+.tippy-box[data-theme~='ThemeInfoTooltip'] {
+  background-color: #fff;
+  color: #5fa2db;
+  border: 1px solid #f3f4f5;
+  margin: 1px;
+  font-weight: 300;
+}
+
+/* Input Search */
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-bottom: 30px;
+  position: relative;
+}
+.input-wrapper .inputSearch {
+  padding: 2px;
+  font-size: 16px;
+  border-radius: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  width: 15%;
+  height: 40px;
+  float: right;
+  margin-right: 70px !important;
+  padding-left: 10px;
+}
+
+/* Icono Input Search */
+.input-wrapper .icon-InfoInput {
+  position: absolute;
+  top: 9px;
+  right: 80px;
+  color: #5fa2db; /* #ccc #5fa2db */
+}
+/* Icono agregar*/
+.div-iconAdd {
+  margin-right: 20px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+.div-iconAdd:hover {
+  color: #5fa2db;
+  cursor: pointer;
+}
+
+/* Boton Delete Datatable */
+.divContainer-BtnDeleteAction {
+  min-width: 30px;
+  min-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d5303e;
+  border-radius: 10px;
+  color: #d5303e;
+}
+.btn-DeleteAction {
+}
+.divContainer-BtnDeleteAction:hover {
+  background-color: #d5303e;
+  color: #fff;
+}
+
+/* Boton de descargas */
+.containerdiv-btnDownload {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.containerdiv-btnDownload button {
+  color: #5fa2db;
+  background-color: #f3f4f5;
+  border: 1px solid #5fa2db;
+  border-radius: 30px;
+  height: 40px;
+}
+
+.containerdiv-btnDownload button:hover {
+  color: #fff;
+  background-color: #5fa2db;
+}

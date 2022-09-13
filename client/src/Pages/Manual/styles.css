@@ -1,0 +1,72 @@
+.container-ManualUso {
+  padding: 2vw;
+}
+
+.boxes-OpcionesM {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.boxes-OpcionesM:last-child {
+  margin-top: 120px;
+}
+.box-OpcionesM {
+  width: 30vw;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-weight: 300;
+  text-align: justify;
+
+  padding: 0 4vw 4vw;
+  border-right: 2px;
+  border-left: 0;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #ccc, #f3f4f5, #ccc) 1 100%;
+}
+.box-OpcionesM:last-child {
+  border-right: 0;
+}
+.box-OpcionesM .icon {
+  font-size: 4em;
+  color: #333;
+  margin-bottom: 0.6em;
+}
+.box-OpcionesM .icon:hover {
+  color: #777;
+  cursor: text;
+}
+.box-OpcionesM h2 {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 1em;
+  color: #5fa2db;
+}
+.box-OpcionesM .subtitulos-OM {
+  font-style: italic;
+  color: #9f9f9f;
+  margin-top: 1.2em;
+  letter-spacing: 1px;
+}
+
+.contentTextManual {
+  margin-top: 3rem;
+  text-align: justify;
+  font-weight: 400;
+}
+
+.TabText {
+  margin-left: 3rem;
+  font-weight: 500;
+}
+
+.ul-ListaPrincipalSquare {
+  list-style-type: square;
+}
+
+.Manual-EstudiantesExcelNota {
+  width: 45%;
+  float: right;
+}

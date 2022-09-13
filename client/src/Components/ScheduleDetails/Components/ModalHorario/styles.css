@@ -1,0 +1,40 @@
+.Contenedor-Horarios {
+  padding: 0.5rem;
+}
+
+.contenedor-Horario {
+  margin: 5px;
+  display: flex;
+}
+
+.contenedor-Horario-titulo {
+  width: 15%;
+}
+
+.contenedor-Horario-horas {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.contenedor-horario-input-inicio,
+.contenedor-horario-input-fin {
+  width: 15rem;
+}
+
+.contenedor-horario-dias {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.contenedor-horario-dia {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  width: 7.95rem;
+  justify-content: space-between;
+}

@@ -1,0 +1,81 @@
+footer {
+  height: 30px;
+  color: #ccc;
+  width: 100%;
+  display: table;
+  position: fixed;
+  bottom: 0px;
+}
+
+footer div {
+  display: table-cell;
+  width: 33.333%;
+}
+
+footer .container-footerBL {
+  text-align: right;
+}
+
+/* Boton Logout*/
+.btn-Home {
+  margin: 1% 0;
+}
+
+.btn-PowerOff {
+  margin: 1% 3%;
+}
+
+footer .container-footerBL .logout-button {
+  display: inline-block;
+  background-color: #5fa2db;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  opacity: 0.99;
+  border-radius: 28%;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+  cursor: pointer;
+}
+
+footer .container-footerBL .logout-button:before {
+  content: '';
+  background-color: #000;
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  top: 90%;
+  left: -110%;
+  transform: rotate(45deg);
+  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+footer .container-footerBL .logout-button .fa {
+  font-size: 38px;
+  vertical-align: middle;
+  transform: scale(0.8);
+  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+footer .container-footerBL .logout-button.Power-off:before {
+  background-color: #f3f4f5;
+}
+
+footer .container-footerBL .logout-button.Power-off .fa {
+  color: #f3f4f5;
+}
+
+footer .container-footerBL .logout-button:focus:before,
+footer .container-footerBL .logout-button:hover:before {
+  top: -10%;
+  left: -10%;
+}
+
+footer .container-footerBL .logout-button:focus .fa,
+footer .container-footerBL .logout-button:hover .fa {
+  color: #5fa2db;
+  transform: scale(1);
+}

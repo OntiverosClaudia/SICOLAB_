@@ -1,0 +1,91 @@
+#notfound {
+  position: relative;
+  height: 100vh;
+  background: #fff;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 180px;
+  margin-bottom: 80px;
+  z-index: -1;
+}
+
+.notfound .notfound-404 h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 224px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -12px;
+  color: #f3f4f5;
+  text-transform: uppercase;
+  text-shadow: -2px -2px 0px #ccc, 3px 3px 0px #5fa2db;
+  letter-spacing: -20px;
+}
+
+.notfound .notfound-404 h3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 110px;
+  font-size: 35px;
+  font-weight: 300;
+  color: #333;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 0px #5fa2db;
+  letter-spacing: 13px;
+  margin-top: 80px;
+}
+
+.notfound button {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #ccc;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 30px;
+  background: transparent;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound button:hover {
+  color: #5fa2db;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 h3 {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 h2 {
+    font-size: 182px;
+  }
+}

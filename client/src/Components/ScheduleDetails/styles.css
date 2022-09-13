@@ -1,0 +1,79 @@
+.scheduleDetails-container {
+  padding: 0 3%;
+}
+
+.container-Horario .table {
+  table-layout: fixed;
+  display: table;
+  text-align: center;
+  width: 100%;
+  border: 0;
+}
+
+.table-entryH {
+  display: inline-block;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0.8rem;
+  text-align: center;
+  color: #000;
+}
+
+.table-entryH.active {
+  background-color: #5fa2db;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.td-style .table-entryH {
+  cursor: pointer;
+}
+
+.td-style {
+  height: 60px;
+  width: 25%;
+  text-align: center;
+  border: 1px solid #a7a7a7;
+}
+
+.th-tableH {
+  height: 60px;
+  background-color: #f3f4f5 !important;
+  border: 1px solid #a7a7a7;
+}
+
+.container-elementos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconAddH {
+  color: #333;
+  margin-right: 3%;
+  display: flex;
+  align-items: center;
+}
+
+.iconAddH:hover {
+  color: #5fa2db;
+  cursor: pointer;
+}
+/*  */
+.containerdiv-btnDeleteTableClass {
+  display: flex;
+  justify-content: center;
+}
+
+.containerdiv-btnDeleteTableClass button {
+  color: #d5303e;
+  background-color: #fff;
+  border: 1px solid #d5303e;
+  border-radius: 30px;
+  height: 40px;
+}
+
+.containerdiv-btnDeleteTableClass button:hover {
+  color: #fff;
+  background-color: #d5303e;
+}

@@ -1,0 +1,16 @@
+.container-laboratoriosList .input-LL input {
+  width: 100%;
+  height: 35px;
+  padding: 11px 45px 11px 20px;
+  border-radius: 30px;
+
+  font-size: 14px;
+  outline: none;
+  color: #616161;
+
+  font-weight: 500;
+  border: 1px solid transparent;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  /*border: 1px solid #ccc;*/
+  background: #fff;
+}

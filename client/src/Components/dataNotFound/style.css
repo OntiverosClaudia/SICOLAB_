@@ -1,0 +1,13 @@
+.container-dataNotFound {
+  align-items: center;
+  text-align: center;
+}
+.container-dataNotFound h2 {
+  margin-top: 15px;
+  font-size: 26px;
+  font-weight: 500;
+}
+.container-dataNotFound h3 {
+  font-size: 22px;
+  font-weight: 400;
+}
